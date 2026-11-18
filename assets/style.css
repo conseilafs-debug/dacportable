@@ -20,3 +20,8 @@ footer{background:#0b1020;color:#cbd5e1;padding:40px 0;margin-top:40px}.footergr
 footer a{color:#93c5fd}
 footer strong{color:#fff}
 .small{color:#9aa7c0}
+
+/* Images */
+img{max-width:100%;height:auto;border-radius:12px}
+figure{margin:24px 0}
+figcaption{font-size:.88rem;color:#5b6780;margin-top:8px}
