@@ -25,3 +25,7 @@ footer strong{color:#fff}
 img{max-width:100%;height:auto;border-radius:12px}
 figure{margin:24px 0}
 figcaption{font-size:.88rem;color:#5b6780;margin-top:8px}
+/* Hero avec image */
+.hero .wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;align-items:center}
+.hero-img{width:100%;height:auto;border-radius:16px;box-shadow:0 18px 50px rgba(0,0,0,.45)}
+@media(max-width:800px){.hero .wrap{grid-template-columns:1fr}.hero-img{order:-1;max-height:280px;object-fit:cover}}
