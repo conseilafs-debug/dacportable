@@ -11,3 +11,12 @@ main{padding:55px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2
 .section{margin-bottom:55px}.article{max-width:820px;margin:auto}.article h1{font-size:clamp(2rem,4vw,3.3rem)}.article h2{margin-top:40px}.article h3{margin-top:28px}.article ul{padding-left:22px}.notice{background:#fff7df;border-left:4px solid #e8b43b;padding:16px 18px;border-radius:8px;margin:24px 0}.affiliate{background:#edf8ff;border:1px solid #cce8fb;padding:20px;border-radius:12px;margin:28px 0}.compare{width:100%;border-collapse:collapse;background:white;border-radius:12px;overflow:hidden}.compare th,.compare td{padding:13px;border-bottom:1px solid #e5eaf2;text-align:left}.compare th{background:#eef3fb}.pros{color:#087f5b}.cons{color:#b42318}
 footer{background:#0b1020;color:#cbd5e1;padding:40px 0;margin-top:40px}.footergrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footerlinks{list-style:none;padding:0}.footerlinks li{margin:7px 0}.small{font-size:.88rem;color:#69758d}
 @media(max-width:800px){nav ul{display:none}.grid,.grid.two,.footergrid{grid-template-columns:1fr}.hero{padding:50px 0 60px}}
+/* Correctif lisibilité : le hero devient un bandeau sombre, comme le header */
+.hero{background:linear-gradient(135deg,#0b1020,#172554);color:#fff;margin:-55px 0 45px}
+.hero h1{color:#fff}
+.hero p{color:#e2e8f0}
+.btn.secondary{border-color:#94a3b8;color:#fff}
+.btn.secondary:hover{background:rgba(255,255,255,.1);text-decoration:none}
+footer a{color:#93c5fd}
+footer strong{color:#fff}
+.small{color:#9aa7c0}
